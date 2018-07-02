@@ -1,0 +1,114 @@
+
+HOPFIELD NETWORK SIMULATION - Fri Jun 08 13:08:25 CEST 2012
+[Uncorrelated memories]
+Instantiating Hopfield Network (size: 25, load factor: 0.138)
+Maximum number of addressable patterns: 3
+Memory patterns:
+Selected memories:
+{Dw, Dw, Dw, Dw, Dw, Dw, Up, Up, Up, Dw, Dw, Up, Dw, Up, Dw, Dw, Up, Dw, Up, Dw, Dw, Up, Up, Up, Dw, }
+|                 |
+|     O  O  O     |
+|     O     O     |
+|     O     O     |
+|     O  O  O     |
+
+{Up, Up, Up, Up, Up, Dw, Dw, Dw, Dw, Dw, Up, Up, Up, Up, Up, Dw, Dw, Dw, Dw, Dw, Up, Up, Up, Up, Up, }
+|  O  O  O  O  O  |
+|                 |
+|  O  O  O  O  O  |
+|                 |
+|  O  O  O  O  O  |
+
+{Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, }
+|     O     O     |
+|  O     O     O  |
+|     O     O     |
+|  O     O     O  |
+|     O     O     |
+
+
+Network training begins
+Network training is finished
+Elapsed time: 8 ms
+
+Asynch Update - Testing memory patterns:
+Presented: {Dw, Dw, Dw, Dw, Dw, Dw, Up, Up, Up, Dw, Dw, Up, Dw, Up, Dw, Dw, Up, Dw, Up, Dw, Dw, Up, Up, Up, Dw, }
+|                 |
+|     O  O  O     |
+|     O     O     |
+|     O     O     |
+|     O  O  O     |
+
+Returned:  {Dw, Dw, Dw, Dw, Dw, Dw, Up, Up, Up, Dw, Dw, Up, Dw, Up, Dw, Dw, Up, Dw, Up, Dw, Dw, Up, Up, Up, Dw, }
+|                 |
+|     O  O  O     |
+|     O     O     |
+|     O     O     |
+|     O  O  O     |
+
+
+Convergence error memory at 0.0%
+
+Presented: {Up, Up, Up, Up, Up, Dw, Dw, Dw, Dw, Dw, Up, Up, Up, Up, Up, Dw, Dw, Dw, Dw, Dw, Up, Up, Up, Up, Up, }
+|  O  O  O  O  O  |
+|                 |
+|  O  O  O  O  O  |
+|                 |
+|  O  O  O  O  O  |
+
+Returned:  {Up, Up, Up, Up, Up, Dw, Dw, Dw, Dw, Dw, Up, Up, Up, Up, Up, Dw, Dw, Dw, Dw, Dw, Up, Up, Up, Up, Up, }
+|  O  O  O  O  O  |
+|                 |
+|  O  O  O  O  O  |
+|                 |
+|  O  O  O  O  O  |
+
+
+Convergence error memory at 0.0%
+
+Presented: {Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, }
+|     O     O     |
+|  O     O     O  |
+|     O     O     |
+|  O     O     O  |
+|     O     O     |
+
+Returned:  {Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, Up, Dw, }
+|     O     O     |
+|  O     O     O  |
+|     O     O     |
+|  O     O     O  |
+|     O     O     |
+
+
+Convergence error memory at 0.0%
+
+Asynch Update - presenting test patterns
+Presented:     {Up, Up, Up, Up, Up, Up, Dw, Dw, Dw, Up, Up, Dw, Up, Dw, Up, Up, Dw, Up, Dw, Up, Up, Dw, Dw, Dw, Up, }
+|  O  O  O  O  O  |
+|  O           O  |
+|  O     O     O  |
+|  O     O     O  |
+|  O           O  |
+
+Returned:      {Up, Up, Up, Up, Up, Up, Dw, Dw, Dw, Up, Up, Dw, Up, Dw, Up, Up, Dw, Up, Dw, Up, Up, Dw, Dw, Dw, Up, }
+|  O  O  O  O  O  |
+|  O           O  |
+|  O     O     O  |
+|  O     O     O  |
+|  O           O  |
+
+Presented:     {Dw, Dw, Dw, Dw, Dw, Dw, Up, Up, Up, Dw, Dw, Up, Dw, Up, Dw, Dw, Up, Dw, Dw, Dw, Dw, Up, Dw, Dw, Dw, }
+|                 |
+|     O  O  O     |
+|     O     O     |
+|     O           |
+|     O           |
+
+Returned:      {Dw, Dw, Dw, Dw, Dw, Dw, Up, Up, Up, Dw, Dw, Up, Dw, Up, Dw, Dw, Up, Dw, Up, Dw, Dw, Up, Up, Up, Dw, }
+|                 |
+|     O  O  O     |
+|     O     O     |
+|     O     O     |
+|     O  O  O     |
+

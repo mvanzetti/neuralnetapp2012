@@ -1,0 +1,169 @@
+
+HOPFIELD NETWORK SIMULATION - Fri Jun 08 13:06:53 CEST 2012
+[Correlated memories]
+Instantiating Hopfield Network (size: 25, load factor: 0.138)
+Maximum number of addressable patterns: 3
+Randomly creating memory patterns:
+Creating a random base pattern
+{Up, Up, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O  O  O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O  O     |
+
+Creating correlated patterns adding a low noise (5.0%)
+{Up, Dw, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Dw, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O     O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|     O  O  O     |
+|  O  O  O  O     |
+
+{Up, Up, Up, Up, Up, Up, Dw, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Dw, Dw, }
+|  O  O  O  O  O  |
+|  O     O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O        |
+
+{Up, Up, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O  O  O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O  O     |
+
+
+Network training begins
+Network training is finished
+Elapsed time: 9ms
+
+Asynch Update - Testing memory patterns:
+Presented: {Up, Dw, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Dw, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O     O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|     O  O  O     |
+|  O  O  O  O     |
+
+Returned:  {Up, Up, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O  O  O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O  O     |
+
+
+Convergence error memory at 8.0%
+
+Presented: {Up, Up, Up, Up, Up, Up, Dw, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Dw, Dw, }
+|  O  O  O  O  O  |
+|  O     O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O        |
+
+Returned:  {Up, Up, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O  O  O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O  O     |
+
+
+Convergence error memory at 8.0%
+
+Presented: {Up, Up, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O  O  O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O  O     |
+
+Returned:  {Up, Up, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O  O  O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O  O     |
+
+
+Convergence error memory at 0.0%
+
+Asynch Update - Testing patterns convergence:
+Adding noise to memorized patterns: 20.0%
+Clean:         {Up, Dw, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Dw, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O     O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|     O  O  O     |
+|  O  O  O  O     |
+
+Noisy:         {Up, Dw, Up, Up, Up, Up, Dw, Up, Dw, Dw, Up, Dw, Dw, Dw, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O     O  O  O  |
+|  O     O        |
+|  O              |
+|  O  O  O  O     |
+|  O  O  O  O     |
+
+Converged to:  {Up, Up, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O  O  O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O  O     |
+
+
+Convergence error memory at 8.0%
+
+Adding noise to memorized patterns: 20.0%
+Clean:         {Up, Up, Up, Up, Up, Up, Dw, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Dw, Dw, }
+|  O  O  O  O  O  |
+|  O     O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O        |
+
+Noisy:         {Up, Up, Up, Up, Up, Up, Dw, Up, Dw, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, }
+|  O  O  O  O  O  |
+|  O     O     O  |
+|  O        O     |
+|     O  O  O     |
+|     O        O  |
+
+Converged to:  {Up, Up, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O  O  O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O  O     |
+
+
+Convergence error memory at 8.0%
+
+Adding noise to memorized patterns: 20.0%
+Clean:         {Up, Up, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O  O  O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O  O     |
+
+Noisy:         {Up, Up, Up, Up, Up, Up, Up, Up, Dw, Up, Dw, Up, Dw, Up, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, }
+|  O  O  O  O  O  |
+|  O  O  O     O  |
+|     O     O  O  |
+|     O  O  O  O  |
+|     O  O  O  O  |
+
+Converged to:  {Up, Up, Up, Up, Up, Up, Up, Up, Dw, Dw, Up, Dw, Dw, Up, Dw, Up, Up, Up, Up, Dw, Up, Up, Up, Up, Dw, }
+|  O  O  O  O  O  |
+|  O  O  O        |
+|  O        O     |
+|  O  O  O  O     |
+|  O  O  O  O     |
+
+
+Convergence error memory at 0.0%
+
